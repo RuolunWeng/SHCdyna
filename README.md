@@ -1,4 +1,5 @@
 # SHCdyna
+![Screenshot of SHCdyna](Photo_SHCdyna_IFC24_v1.jpeg)
 
 SHCdyna is a continuation and extension of the faust2smartphone project, designed to enhance the flexibility of creating musical applications through dynamic compilation. Building on the key concepts of customizable SHC interfaces, motion control, and integration of Faust's powerful digital signal processing (DSP) capabilities, SHCdyna enables musicians and developers to create, upload, and perform real-time Faust projects on iOS devices. This paper explores the relationship between faust2smartphone and SHCdyna, highlights the innovations introduced in SHCdyna, and outlines its potential applications in education and live performance.
 
