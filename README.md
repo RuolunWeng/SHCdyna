@@ -52,6 +52,26 @@ In your .dsp file, declare the required [SHCUI] interface via metadata, which wi
     - **prevCue**: Moves to the previous position in the "touchCueManager" list when triggered by the next "trigCue".
     - **initCue**: Instantly initializes the position in the "touchCueManager" list.
 
+```faust
+// Example UI standard
+  on_off = checkbox("[1]OnOff [SHCUI:DEMO checkbox 0 0 50 50 255 0 255 255]");
+```
+```faust
+// Example UI speciale
+  touch01X = hslider("Pad1_X",0,0,1,0.001);
+  touch01Y = hslider("Pad1_Y",0,0,1,0.001);
+  touchGate01 = checkbox("Pad1 [SHCUI: DEMO pad 0 0 50 50 0 255 255 200]");
+```
+
+```faust
+// Example cue system
+  select_sample = nentry("cue [SHCUI:DEMO trigCue 50 0 50 30 255 0 0 255] [touchCueManager: {1:'Your sample1';2:'Your sample2';3:'Your sample3'}]", 1, 1, 3, 1);
+  trigNextCue = button("goNext [SHCUI: DEMO nextCue 50 30 50 30 255 255 0 150]");
+  trigPrevCue = button("goPrev [SHCUI: DEMO prevCue 0 30 50 30 255 255 0 150]");
+  trigInitCue = button("initCue [SHCUI: DEMO initCue 50 60 50 30 255 255 255 150]");
+```
+
+
 ### Motion Sensing: "motion.lib"
 
 - **Description**: Create interactions via integrated motion sensors in iOS. These descriptors can be used to modulate various audio parameters based on user movements.
