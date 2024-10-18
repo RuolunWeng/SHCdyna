@@ -136,7 +136,7 @@ Note:
 The SHCdyna application is the continuation of the Open Source project ‘faust2smartphone’. ‘faust2smartphone’ allows generating standalone iOS/Android applications for Smart Hand Computer from the same code used for SHCdyna.
 SHCdyna is currently not available for Android.
 
-**Contact:**
+**Contact**:
 For any questions or technical support, please contact the LiSiLoG development team.
 Developers: Allen Weng & Christophe Lebreton @[LiSiLoG](https://www.lisilog.com/en)
 
