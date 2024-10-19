@@ -1,11 +1,12 @@
 # SHCdyna
-![Screenshot of SHCdyna](Photo_SHCdyna_IFC24_v1.jpeg)
+![Screenshot of SHCdyna](screenshot/logo_SHCdyna_IFC24_v1.jpeg)
 
 **Dynamic Compilation for Music Gesture-based SHC (Smart Hand Computer) Mobile Applications**
 
 Developed by LiSiLoG, SHCdyna is a continuation and extension of the faust2smartphone project, first introduced at International Faust Conference (IFC) 2018. SHCdyna enhances the flexibility of creating musical applications through dynamic compilation, allowing musicians and developers to create, upload, and execute Faust projects in real-time on iOS devices. Building on the key concepts of customizable SHC (Smart Hand Computer) interfaces, motion control, and Faust's powerful digital signal processing (DSP) capabilities, SHCdyna opens up new possibilities for interactive music creation. This presentation will highlight the evolution introduced in SHCdyna and explore its potential applications in education and live performance.
 
-## [WiKi](https://github.com/RuolunWeng/SHCdyna/wiki)
+## Manual
+[WiKi page](https://github.com/RuolunWeng/SHCdyna/wiki)
 
 ## Contact
 For any questions or technical support, please contact the LiSiLoG development team.
