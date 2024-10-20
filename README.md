@@ -10,4 +10,4 @@ Developed by LiSiLoG, SHCdyna is a continuation and extension of the faust2smart
 
 ## Contact
 For any questions or technical support, please contact the LiSiLoG development team.
-Developers: Allen Weng & Christophe Lebreton @[LiSiLoG](https://www.lisilog.com/en)
+Developers: Allen Weng & Christophe Lebreton @[LiSiLoG](https://www.lisilog.com/en){:target="_blank"}
